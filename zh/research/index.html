@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>研究 — 向麟予</title>
+<meta name="description" content="城市感知、视觉语言模型与机器测量效度的研究。">
+<meta name="theme-color" content="#F3F4F5">
+<meta name="author" content="Linyu Xiang">
+<link rel="canonical" href="https://lrryu.github.io/zh/research/">
+<link rel="alternate" hreflang="zh-CN" href="https://lrryu.github.io/zh/research/">
+<link rel="alternate" hreflang="en" href="https://lrryu.github.io/research/">
+<link rel="preload" href="/static/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/static/favicon/mark.svg" type="image/svg+xml">
+<link rel="icon" href="/static/favicon/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/static/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="研究 — 向麟予">
+<meta property="og:description" content="城市感知、视觉语言模型与机器测量效度的研究。">
+<meta property="og:url" content="https://lrryu.github.io/zh/research/">
+<meta property="og:image" content="https://lrryu.github.io/static/og.jpg">
+<meta property="og:site_name" content="Linyu Xiang">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="研究 — 向麟予">
+<meta name="twitter:description" content="城市感知、视觉语言模型与机器测量效度的研究。">
+<meta name="twitter:image" content="https://lrryu.github.io/static/og.jpg">
+<link rel="stylesheet" href="/assets/css/style.css?v=76f3ec88">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Linyu Xiang","alternateName":"向麟予","url":"https://lrryu.github.io/","email":"mailto:laxiang@connect.hku.hk","jobTitle":"Landscape architect and researcher","description":"Linyu Xiang is a landscape architect and researcher working on urban perception, street-view imagery, and the validity of vision-language-model measurement.","affiliation":{"@type":"CollegeOrUniversity","name":"The University of Hong Kong"},"knowsAbout":["urban perception","street-view imagery","vision-language models","geospatial mechanistic interpretability","landscape architecture"],"sameAs":["https://lrryu.github.io/Seeing-and-Assuming-Named/"]}
+</script>
+</head>
+<body class=" page-research">
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="site-head" data-header>
+  <div class="wrap head-inner">
+    <a class="brand" href="/zh/" aria-label="向麟予 — 首页">
+      <span class="brand-name">向麟予</span>
+      <span class="brand-role">城市感知 / 地理空间人工智能</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-label">目录</span>
+      <span class="nav-toggle-mark" aria-hidden="true"></span>
+    </button>
+
+    <nav class="nav" id="site-nav" aria-label="主导航">
+      <a href="/zh/research/" aria-current="page">研究</a>
+      <a href="/zh/work/" >作品</a>
+      <a href="/zh/about/" >关于</a>
+      <a href="/zh/cv/" >简历</a>
+    </nav>
+
+    <a class="lang" href="/research/" hreflang="en">
+      EN
+    </a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+<section class="page-head research-head">
+  <div class="wrap">
+    <p class="eyebrow">研究</p>
+    <h1>哪一种视角，<br>测量哪一座城市？</h1>
+    <p class="page-lead">一个研究纲领，三条线索。对象始终是测量：一张街景、一次模型输出、一个指数值——都是带着假设的仪器对场所作出的断言。</p>
+  </div>
+</section>
+
+<nav class="section-nav" aria-label="研究页导航" data-section-nav>
+  <div class="wrap section-nav-inner">
+    <a href="#question">问题</a>
+    <a href="#strands">三条线索</a>
+    <a href="#output">代表成果</a>
+    <a href="#method">方法</a>
+  </div>
+</nav>
+
+<section class="section section--flush" id="question">
+  <div class="wrap program-grid">
+    <div>
+      <p class="label">问题</p>
+      <p class="pull program-pull">仪器是对象的一部分。</p>
+    </div>
+    <div class="prose-sm">
+      <p>城市测量正在从可以拆开检查的仪器，转向多数时候无法拆开的仪器。视觉语言模型读取街道并返回标签；渲染视图替代照片；指数把两者变成一个数字。每一步都增加了规模，也移除了一种检查“这个数字由什么构成”的方式。</p>
+      <p>该纲领用三种形式问同一个问题：模型的答案从哪里来——图像，还是地名？哪一种视角可以合法地代表哪一种构念？当一个指标进入决策，它可以承担什么？顺序是有意的：来源归因让模型可观察，视角条件化效度让测量可比较，决策级研究说明数字可以在什么范围内使用。</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="strands">
+  <div class="wrap">
+    <header class="section-head">
+      <h2>三条线索</h2>
+      <span class="count">01–03</span>
+    </header>
+    <div class="strand-grid">
+      <article class="strand" id="strand-01">
+        <p class="meta"><span>01</span><span>期刊论文 · 已投稿</span></p>
+        <h3>看见与假定</h3>
+        <p class="strand-formal">面向街景土地利用制图的视觉语言模型来源归因审计</p>
+        <p>逐位置审计视觉语言模型“看见”了什么、又从地名“假定”了什么——深圳 5,000 个街景点、三种开源架构、一个空间场。</p>
+      </article>
+      <article class="strand" id="strand-02">
+        <p class="meta"><span>02</span><span>博士研究纲领 · 进行中</span></p>
+        <h3>哪一种视角，测量哪一座城市</h3>
+        <p class="strand-formal">面向人工智能城市测量的视角条件化效度</p>
+        <p>研究跨视角的测量效度：街景、窗景、航拍与渲染。哪一种视角可以代表哪一种构念，条件是什么？</p>
+      </article>
+      <article class="strand" id="strand-03">
+        <p class="meta"><span>03</span><span>应用试点 · 设计中</span></p>
+        <h3>城市指数的感知测度层</h3>
+        <p class="strand-formal">把经过审计的街景感知转化为可进入指数的指标</p>
+        <p>面向深圳城市指数的应用试点：把经过审计的街景感知转化为带有来源信息的指标。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section selected-output" id="output">
+  <div class="wrap">
+    <p class="label">代表成果</p>
+    <div class="output-grid">
+      <div class="output-copy">
+        <p class="meta"><span>期刊论文 · 已投稿</span><span>2026 年投稿于 Sustainable Cities and Society</span></p>
+        <h2>看见与假定</h2>
+        <p class="formal">面向街景土地利用制图的视觉语言模型来源归因审计</p>
+        <p class="output-authors">向麟予†、唐浩然†、陈俊楠、谭胜尧、杨伊扬*<span>† 共同第一作者。* 通讯作者。</span></p>
+        <div class="abstract-box">
+          <p>城市土地利用清单是交通、基础设施与环境模型的共同输入，视觉语言模型正越来越多地从街景影像和带有地名的提示中生成这些清单。输出层面的精度把来源依赖概括为模型的整体属性，掩盖了观察到的街道究竟在何处把内部表征推离纯文本基线。本文提出一种内部来源归因审计：测量视觉输入使倒数第二层残差流状态偏离文本基线的程度。将读数映射到深圳 5,000 个点位后，内部来源依赖呈现空间非平稳：地名提示设定全区基线；在同一行政区、同一预测类别内部，视觉位移仍沿路网聚集。该审计把模型自带的空间先验与观察到的街景证据分开。</p>
+        </div>
+        <div class="output-links">
+          <a href="https://lrryu.github.io/Seeing-and-Assuming-Named/" target="_blank" rel="noopener">论文项目页 ↗</a>
+          <a href="mailto:laxiang@connect.hku.hk?subject=Manuscript%20request">来信索取论文</a>
+        </div>
+      </div>
+      <figure class="output-fig">
+        <img class="" src="/static/img/field-card-1000.jpg"
+  srcset="/static/img/field-card-700.webp 700w, /static/img/field-card-800.webp 800w, /static/img/field-card-1000.webp 1000w"
+  sizes="(min-width: 980px) 38vw, 92vw" width="1000" height="392"
+  alt="深圳内部来源归因场" loading="lazy" decoding="async">
+        <figcaption>深圳 5,000 个街景点的内部来源归因场。</figcaption>
+      </figure>
+    </div>
+
+    <div class="output-findings">
+      <div class="output-finding">
+        <p class="stat">+0.090</p>
+        <p class="stat-label">残差路网 Moran’s I</p>
+        <p>来源依赖具有空间结构。原始路网 Moran’s I 为 +0.632；扣除行政区均值后为 +0.584，再扣除答案类别均值后为 +0.351。两者都扣除后仍为 +0.090（z = +2.73，p = 0.006），聚集主要发生在 100–200 米路网距离内。</p>
+      </div>
+      <div class="output-finding">
+        <p class="stat">+0.140 SD</p>
+        <p class="stat-label">过境道路效应</p>
+        <p>城市形态可以预测图像在何处起作用。控制行政区与类别后，过境道路相对本地街道高出 +0.140 个标准差（95% CI +0.088 至 +0.191）。POI 强度为负（−0.026）；一旦同时纳入 POI 强度，建筑密度的效应降至零。</p>
+      </div>
+      <div class="output-finding">
+        <p class="stat">cos 0.688</p>
+        <p class="stat-label">波士顿方向迁移</p>
+        <p>方向可以迁移。在波士顿 640 点样本上独立估计的来源归因轴，与深圳轴的余弦相似度为 0.688。图像质量指标只能解释迁移读数的 0.2%，答案划分解释 40%。</p>
+      </div>
+      <div class="output-finding">
+        <p class="stat">49.0%</p>
+        <p class="stat-label">最高残差四分位的不一致率</p>
+        <p>审计可以为核查排序。在预测为居住类的区域内部，最高残差四分位与外部参照图层的不一致率为 49.0%，最低四分位为 32.1%（OR 1.99）。内部读数为人工核查提供顺序，而不是又一个精度分数。</p>
+      </div>
+    </div>
+
+    <div class="output-figures">
+      <figure class="figure">
+        <img class="" src="/static/img/fig-spatial-field-1600.jpg"
+  srcset="/static/img/fig-spatial-field-800.webp 800w, /static/img/fig-spatial-field-900.webp 900w, /static/img/fig-spatial-field-1600.webp 1600w"
+  sizes="(min-width: 980px) 44vw, 92vw" width="1600" height="1264"
+  alt="逐级条件化后的路网场。扣除行政区与类别均值后（d），仍保留 +0.090 的局部聚集。" loading="lazy" decoding="async">
+        <figcaption><span class="fig-num">图 2</span> 逐级条件化后的路网场。扣除行政区与类别均值后（d），仍保留 +0.090 的局部聚集。</figcaption>
+      </figure>
+      <figure class="figure">
+        <img class="" src="/static/img/fig-urban-form-1600.jpg"
+  srcset="/static/img/fig-urban-form-800.webp 800w, /static/img/fig-urban-form-900.webp 900w, /static/img/fig-urban-form-1600.webp 1600w"
+  sizes="(min-width: 980px) 44vw, 92vw" width="1600" height="1099"
+  alt="形态梯度：不同建筑密度区间下，过境道路与本地街道的对比。" loading="lazy" decoding="async">
+        <figcaption><span class="fig-num">图 3</span> 形态梯度：不同建筑密度区间下，过境道路与本地街道的对比。</figcaption>
+      </figure>
+    </div>
+
+    <p class="cite-line">Xiang, L., Tang, H., Chen, J., Tan, S., &amp; Yang, Y. (2026). A source-attribution audit of vision-language models for urban land-use mapping from street view imagery [投稿中手稿]. Sustainable Cities and Society.</p>
+  </div>
+</section>
+
+<section class="section" id="method">
+  <div class="wrap narrow">
+    <p class="label">方法</p>
+    <p class="pull">仪器是对象的一部分。一个说不清自身假设的测量，还不能算证据。</p>
+    <p class="note">三条线索的方法沿同一方向推进：从读取模型内部状态，到检验这种读数能否跨视角成立，再到追问一个指标在决策中可以合法地承担什么。后一步依赖前一步的可审计性。</p>
+    <div class="method-links">
+      <a class="arrow-link " href="/zh/work/"><span>设计作品</span><span class="arrow" aria-hidden="true">→</span></a>
+      <a class="arrow-link " href="/zh/cv/"><span>简历</span><span class="arrow" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-id">
+        <p class="foot-name">Linyu Xiang <span class="seal seal--foot" aria-hidden="true">向</span> <span>向麟予</span></p>
+        <p class="foot-tag">城市感知、街景影像，与机器测量的效度。</p>
+      </div>
+      <nav class="foot-nav" aria-label="页脚导航">
+        <a href="/zh/research/">研究</a>
+        <a href="/zh/work/">作品</a>
+        <a href="/zh/about/">关于</a>
+        <a href="/zh/cv/">简历</a>
+      </nav>
+      <div class="foot-contact">
+        <a href="mailto:laxiang@connect.hku.hk">laxiang@connect.hku.hk</a>
+        <p>香港 / 深圳</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 Linyu Xiang. 版权所有。</p>
+      <a class="back-to-top" href="#main">返回顶部 <span aria-hidden="true">↑</span></a>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js?v=76f3ec88" defer></script>
+</body>
+</html>

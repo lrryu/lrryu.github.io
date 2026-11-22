@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>向麟予 — 城市感知与机器测量</title>
+<meta name="description" content="向麟予，城乡规划学（园境）硕士，研究城市感知、街景影像与视觉语言模型测量的效度。">
+<meta name="theme-color" content="#F3F4F5">
+<meta name="author" content="Linyu Xiang">
+<link rel="canonical" href="https://lrryu.github.io/zh/">
+<link rel="alternate" hreflang="zh-CN" href="https://lrryu.github.io/zh/">
+<link rel="alternate" hreflang="en" href="https://lrryu.github.io/">
+<link rel="preload" href="/static/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/static/favicon/mark.svg" type="image/svg+xml">
+<link rel="icon" href="/static/favicon/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/static/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="向麟予 — 城市感知与机器测量">
+<meta property="og:description" content="向麟予，城乡规划学（园境）硕士，研究城市感知、街景影像与视觉语言模型测量的效度。">
+<meta property="og:url" content="https://lrryu.github.io/zh/">
+<meta property="og:image" content="https://lrryu.github.io/static/og.jpg">
+<meta property="og:site_name" content="Linyu Xiang">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="向麟予 — 城市感知与机器测量">
+<meta name="twitter:description" content="向麟予，城乡规划学（园境）硕士，研究城市感知、街景影像与视觉语言模型测量的效度。">
+<meta name="twitter:image" content="https://lrryu.github.io/static/og.jpg">
+<link rel="stylesheet" href="/assets/css/style.css?v=76f3ec88">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Person","name":"Linyu Xiang","alternateName":"向麟予","url":"https://lrryu.github.io/","email":"mailto:laxiang@connect.hku.hk","jobTitle":"Landscape architect and researcher","description":"Linyu Xiang is a landscape architect and researcher working on urban perception, street-view imagery, and the validity of vision-language-model measurement.","affiliation":{"@type":"CollegeOrUniversity","name":"The University of Hong Kong"},"knowsAbout":["urban perception","street-view imagery","vision-language models","geospatial mechanistic interpretability","landscape architecture"],"sameAs":["https://lrryu.github.io/Seeing-and-Assuming-Named/"]},{"@type":"WebSite","name":"Linyu Xiang","url":"https://lrryu.github.io/","inLanguage":["en","zh-CN"]}]}
+</script>
+</head>
+<body class=" page-home">
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="site-head" data-header>
+  <div class="wrap head-inner">
+    <a class="brand" href="/zh/" aria-label="向麟予 — 首页">
+      <span class="brand-name">向麟予</span>
+      <span class="brand-role">城市感知 / 地理空间人工智能</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-label">目录</span>
+      <span class="nav-toggle-mark" aria-hidden="true"></span>
+    </button>
+
+    <nav class="nav" id="site-nav" aria-label="主导航">
+      <a href="/zh/research/" >研究</a>
+      <a href="/zh/work/" >作品</a>
+      <a href="/zh/about/" >关于</a>
+      <a href="/zh/cv/" >简历</a>
+    </nav>
+
+    <a class="lang" href="/" hreflang="en">
+      EN
+    </a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">城市感知 · 街景影像 · 地理空间人工智能</p>
+      <h1 class="display"><span>向麟予</span></h1>
+      <p class="hero-name-note" lang="en">Linyu Xiang</p>
+      <p class="statement">城市如何被看见，
+又如何被测量。</p>
+      <p class="hero-bio">园境学硕士（香港大学），工作于城市设计与机器测量之间。研究开发街景视觉语言模型的审计方法，并把经过审计的感知测度转化为城市指标。</p>
+      <div class="hero-links">
+        <a class="button" href="#research">了解研究 <span aria-hidden="true">↘</span></a>
+        <a class="arrow-link " href="#work"><span>作品选列</span><span class="arrow" aria-hidden="true">→</span></a>
+        <a class="arrow-link " href="#cv"><span>简历</span><span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <aside class="hero-plate" aria-label="图">
+      <span class="seal" aria-hidden="true">向</span>
+      <p class="plate-label"><span>图 01</span><span>来源场</span></p>
+      <a class="hero-map-link" href="/zh/research/#output" aria-label="查看来源归因研究">
+        <img class="field-img" src="/static/img/field-card-1000.jpg"
+  srcset="/static/img/field-card-700.webp 700w, /static/img/field-card-800.webp 800w, /static/img/field-card-1000.webp 1000w"
+  sizes="(min-width: 1280px) 450px, (min-width: 861px) 40vw, 92vw" width="1000" height="392"
+  alt="深圳 5,000 个街景点的内部来源归因场。蓝色表示图像把模型推离地名基线，红色表示推向基线。" loading="eager" decoding="async" fetchpriority="high">
+        <span class="map-link-mark" aria-hidden="true">↗</span>
+      </a>
+      <p class="caption">深圳 5,000 个街景点的内部来源归因场。蓝色表示图像把模型推离地名基线，红色表示推向基线。</p>
+      <dl class="stats">
+        <div><dt>街景点</dt><dd>5,000</dd></div>
+        <div><dt>开源架构</dt><dd>3</dd></div>
+        <div><dt>残差路网 Moran’s I</dt><dd>+0.090</dd></div>
+      </dl>
+      <div class="hero-now">
+        <p class="plate-label"><span>近况</span><span>2026</span></p>
+        <ul>
+          <li>香港大学 UEHH Lab 研究助理</li>
+          <li>筹备博士研究：视角条件化的测量效度</li>
+          <li>常驻香港与深圳</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<nav class="section-nav" aria-label="本页导航" data-section-nav>
+  <div class="wrap section-nav-inner">
+    <span class="label section-nav-label">本页索引</span>
+    <a href="#research"><span>01</span> 研究</a>
+    <a href="#work"><span>02</span> 作品</a>
+    <a href="#cv"><span>03</span> 简历</a>
+    <a href="#about"><span>04</span> 关于</a>
+  </div>
+</nav>
+
+<section class="manifesto">
+  <div class="wrap manifesto-grid">
+    <div>
+      <p class="eyebrow manifesto-eyebrow">立场</p>
+      <p class="manifesto-line">算得准，不等于看得见。</p>
+    </div>
+    <p class="manifesto-sub">一个土地利用标签可以是对的，却由区名而非街道支撑。审计把两者分开。</p>
+  </div>
+</section>
+
+<section class="section" id="research">
+  <div class="wrap">
+    <header class="section-head">
+      <h2><span class="section-number">01 /</span> 研究选列</h2>
+      <a class="count" href="/zh/research/">一个纲领 →</a>
+    </header>
+
+    <div class="home-research">
+      <div class="home-research-lead">
+        <p class="label">研究纲领</p>
+        <h3>哪一种视角，测量哪一座城市？</h3>
+        <p>测量是对场所的一种断言。该纲领追问：断言从哪里来，哪一种视角可以承载它，以及它进入决策后可以做什么。</p>
+        <a class="arrow-link " href="/zh/research/"><span>阅读研究纲领</span><span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div class="home-strands">
+        <a class="home-strand" href="/zh/research/#strand-01">
+          <span class="num">01</span>
+          <h4>看见与假定</h4>
+          <p>逐位置审计视觉语言模型“看见”了什么、又从地名“假定”了什么——深圳 5,000 个街景点、三种开源架构、一个空间场。</p>
+        </a>
+        <a class="home-strand" href="/zh/research/#strand-02">
+          <span class="num">02</span>
+          <h4>哪一种视角，测量哪一座城市</h4>
+          <p>研究跨视角的测量效度：街景、窗景、航拍与渲染。哪一种视角可以代表哪一种构念，条件是什么？</p>
+        </a>
+        <a class="home-strand" href="/zh/research/#strand-03">
+          <span class="num">03</span>
+          <h4>城市指数的感知测度层</h4>
+          <p>面向深圳城市指数的应用试点：把经过审计的街景感知转化为带有来源信息的指标。</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="method-strip">
+      <div class="method-strip-item">
+        <p class="label">01 / 测量</p>
+        <p>从街景中读取感知：绿视、开敞、界面、活力、安全。</p>
+      </div>
+      <div class="method-strip-item">
+        <p class="label">02 / 审计</p>
+        <p>把模型看见的证据，与它对地点的先验分开。</p>
+      </div>
+      <div class="method-strip-item">
+        <p class="label">03 / 应用</p>
+        <p>把经过审计的测度转化为可比较、可核查、可申诉的指标。</p>
+      </div>
+    </div>
+
+    <div class="home-output">
+      <p class="label">代表成果</p>
+      <p><strong>看见与假定</strong> — <i>Sustainable Cities and Society</i>, 2026 年已投稿</p>
+      <a class="arrow-link" href="/zh/research/#output">查看成果 <span class="arrow" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section work-section" id="work">
+  <div class="wrap">
+    <header class="section-head">
+      <h2><span class="section-number">02 /</span> 作品选列</h2>
+      <a class="count" href="/zh/work/">8 个项目 →</a>
+    </header>
+    <p class="section-intro">2021–2024 年的设计作品。每个项目都试图把一种阅读场所的方式说清楚：水系、知识体系、植物生长，或建筑废料。</p>
+
+    <div class="work-grid home-work">
+      <article class="work-card work-card--drawing">
+        <a class="work-card-link" href="/zh/work/feng-shui-toolkit/">
+          <figure class="work-fig">
+            <img class="" src="/static/img/fs-circles-1800.jpg"
+  srcset="/static/img/fs-circles-800.webp 800w, /static/img/fs-circles-900.webp 900w, /static/img/fs-circles-1800.webp 1800w"
+  sizes="(min-width: 1280px) 364px, (min-width: 861px) 30vw, (min-width: 621px) 44vw, 92vw" width="1800" height="1341"
+  alt="风水工具包 — 在风水知识与景观生态学之间搭桥" loading="lazy" decoding="async" style="object-position:center">
+          </figure>
+          <div class="work-card-head">
+            <span class="num">01</span>
+            <h3>风水工具包</h3>
+            <span class="year">2024</span>
+          </div>
+          <p class="work-card-sub">园境学硕士论文 · 香港 / 大中华地区</p>
+          <p class="work-card-line">在风水知识与景观生态学之间搭桥</p>
+        </a>
+      </article>
+      <article class="work-card">
+        <a class="work-card-link" href="/zh/work/shan-tang-revival/">
+          <figure class="work-fig">
+            <img class="" src="/static/img/st-plan-1505.jpg"
+  srcset="/static/img/st-plan-800.webp 800w, /static/img/st-plan-1000.webp 1000w, /static/img/st-plan-1505.webp 1505w"
+  sizes="(min-width: 1280px) 364px, (min-width: 861px) 30vw, (min-width: 621px) 44vw, 92vw" width="1505" height="1044"
+  alt="山塘新叙 — 城市设计与景观剖面" loading="lazy" decoding="async" style="object-position:center">
+          </figure>
+          <div class="work-card-head">
+            <span class="num">02</span>
+            <h3>山塘新叙</h3>
+            <span class="year">2022</span>
+          </div>
+          <p class="work-card-sub">本科毕业设计 · 中国苏州</p>
+          <p class="work-card-line">城市设计与景观剖面</p>
+        </a>
+      </article>
+      <article class="work-card">
+        <a class="work-card-link" href="/zh/work/royal-project/">
+          <figure class="work-fig">
+            <img class="" src="/static/img/rp-blue-map-1044.jpg"
+  srcset="/static/img/rp-blue-map-800.webp 800w, /static/img/rp-blue-map-900.webp 900w, /static/img/rp-blue-map-1044.webp 1044w"
+  sizes="(min-width: 1280px) 364px, (min-width: 861px) 30vw, (min-width: 621px) 44vw, 92vw" width="1044" height="1078"
+  alt="皇家项目 2.0 — 泰国北部山地村落的知识保存" loading="lazy" decoding="async" style="object-position:center">
+          </figure>
+          <div class="work-card-head">
+            <span class="num">03</span>
+            <h3>皇家项目 2.0</h3>
+            <span class="year">2023</span>
+          </div>
+          <p class="work-card-sub">课程设计 · 泰国清迈</p>
+          <p class="work-card-line">泰国北部山地村落的知识保存</p>
+        </a>
+      </article>
+    </div>
+    <div class="work-register">
+      <a class="work-register-item" href="/zh/work/static-dynamic/">
+        <img class="" src="/static/img/sd-render-1600.jpg"
+  srcset="/static/img/sd-render-800.webp 800w, /static/img/sd-render-900.webp 900w, /static/img/sd-render-1600.webp 1600w"
+  sizes="112px" width="1600" height="811"
+  alt="" loading="lazy" decoding="async" style="object-position:center">
+        <div>
+          <p class="label">04 / 2021</p>
+          <h3>静态动态</h3>
+          <p>课程设计</p>
+        </div>
+        <span aria-hidden="true">↗</span>
+      </a>
+      <a class="work-register-item" href="/zh/work/archive-for-hauntology/">
+        <img class="" src="/static/img/ar-scene-1600.jpg"
+  srcset="/static/img/ar-scene-800.webp 800w, /static/img/ar-scene-900.webp 900w, /static/img/ar-scene-1600.webp 1600w"
+  sizes="112px" width="1600" height="1065"
+  alt="" loading="lazy" decoding="async" style="object-position:center">
+        <div>
+          <p class="label">05 / 2023</p>
+          <h3>风土归档</h3>
+          <p>落地装置</p>
+        </div>
+        <span aria-hidden="true">↗</span>
+      </a>
+      <a class="work-register-item" href="/zh/work/through-coast-and-cliffs/">
+        <img class="" src="/static/img/co-render-830.jpg"
+  srcset="/static/img/co-render-830.webp 830w"
+  sizes="112px" width="830" height="1040"
+  alt="" loading="lazy" decoding="async" style="object-position:center">
+        <div>
+          <p class="label">06 / 2022</p>
+          <h3>穿越海岸与悬崖</h3>
+          <p>设计课</p>
+        </div>
+        <span aria-hidden="true">↗</span>
+      </a>
+      <a class="work-register-item" href="/zh/work/wandering-by-tea/">
+        <img class="" src="/static/img/tea-plan-1-742.jpg"
+  srcset="/static/img/tea-plan-1-742.webp 742w"
+  sizes="112px" width="742" height="417"
+  alt="" loading="lazy" decoding="async" style="object-position:center">
+        <div>
+          <p class="label">07 / 2021</p>
+          <h3>清风山房</h3>
+          <p>设计课</p>
+        </div>
+        <span aria-hidden="true">↗</span>
+      </a>
+      <a class="work-register-item" href="/zh/work/treehouse/">
+        <img class="" src="/static/img/th-before-1400.jpg"
+  srcset="/static/img/th-before-800.webp 800w, /static/img/th-before-900.webp 900w, /static/img/th-before-1400.webp 1400w"
+  sizes="112px" width="1400" height="1867"
+  alt="" loading="lazy" decoding="async" style="object-position:center 40%">
+        <div>
+          <p class="label">08 / 2025</p>
+          <h3>树屋</h3>
+          <p>村落复兴 · 挖掘</p>
+        </div>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section home-cv" id="cv">
+  <div class="wrap">
+    <header class="section-head">
+      <h2><span class="section-number">03 /</span> 简历</h2>
+      <a class="count" href="/zh/cv/">完整简历 →</a>
+    </header>
+    <div class="home-cv-grid">
+      <div>
+        <p class="label">教育背景</p>
+        <div class="cv-mini">
+          <strong>城乡规划学（园境）硕士</strong>
+          <span>香港大学 · 2022 – 2024</span>
+        </div>
+        <div class="cv-mini">
+          <strong>风景园林工学学士</strong>
+          <span>重庆大学 · 2017 – 2022</span>
+        </div>
+      </div>
+      <div>
+        <p class="label">研究与教学</p>
+        <div class="cv-mini">
+          <strong>研究助理，UEHH Lab</strong>
+          <span>香港大学建筑学院 · 2024–2025；2026</span>
+        </div>
+        <div class="cv-mini">
+          <strong>助教，园境设计课</strong>
+          <span>香港大学园境学部 · 2025 – 2026</span>
+        </div>
+      </div>
+      <div>
+        <p class="label">代表成果</p>
+        <div class="cv-mini">
+          <strong>面向街景土地利用制图的视觉语言模型来源归因审计</strong>
+          <span>已投稿，<i>Sustainable Cities and Society</i></span>
+        </div>
+        <div class="cv-mini">
+          <strong>谁承担代价，谁发出声音：投诉驱动型城市环境治理中的多阶段不平等</strong>
+          <span>返修中，<i>Journal of Environmental Management</i></span>
+        </div>
+        <div class="cv-actions">
+          <a class="button" href="/static/pdf/XIANG_Linyu_CV.pdf" download>下载英文 ↓</a>
+          <a class="button button--ghost" href="/static/pdf/XIANG_Linyu_CV_CN.pdf" download>下载中文 ↓</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-strip" id="about">
+  <div class="wrap about-text-grid">
+    <p class="about-lead">园境设计师与研究者，关心机器测量能够对一座城市合法地说些什么。</p>
+    <div>
+      <p class="label">04 / 关于</p>
+      <p class="about-short">在进入研究之前，我在重庆大学与香港大学接受园境设计训练。设计仍然重要：我是在那里学会，一张图其实是对“场所是什么”的一种论证。</p>
+      <a class="arrow-link " href="/zh/about/"><span>更多</span><span class="arrow" aria-hidden="true">→</span></a>
+      <a class="about-email" href="mailto:laxiang@connect.hku.hk">laxiang@connect.hku.hk <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-id">
+        <p class="foot-name">Linyu Xiang <span class="seal seal--foot" aria-hidden="true">向</span> <span>向麟予</span></p>
+        <p class="foot-tag">城市感知、街景影像，与机器测量的效度。</p>
+      </div>
+      <nav class="foot-nav" aria-label="页脚导航">
+        <a href="/zh/research/">研究</a>
+        <a href="/zh/work/">作品</a>
+        <a href="/zh/about/">关于</a>
+        <a href="/zh/cv/">简历</a>
+      </nav>
+      <div class="foot-contact">
+        <a href="mailto:laxiang@connect.hku.hk">laxiang@connect.hku.hk</a>
+        <p>香港 / 深圳</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 Linyu Xiang. 版权所有。</p>
+      <a class="back-to-top" href="#main">返回顶部 <span aria-hidden="true">↑</span></a>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js?v=76f3ec88" defer></script>
+</body>
+</html>
